@@ -13,3 +13,12 @@ class Student:
 
     def acquaintance(self, student: object) -> str:
         return f"{self.name} acquianted with {student.name}"
+    
+    def is_adult(self) -> bool:
+        """Check if student is adult."""
+        return self.student_is_adult(self.age)
+    
+    @staticmethod
+    def student_is_adult(age: int) -> bool:
+        """A static method to determine student adulthood age."""
+        return age > 18
