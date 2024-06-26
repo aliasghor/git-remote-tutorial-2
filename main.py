@@ -1,8 +1,8 @@
 import student as sdt
 
 def main() -> None:
-    ali = sdt.Student("Ali", 21)
-    gerry = sdt.Student("Gerry",20)
+    ali = sdt.student("Ali", 21)
+    gerry = sdt.student("Gerry",20)
 
     print(ali)
     print(gerry)
