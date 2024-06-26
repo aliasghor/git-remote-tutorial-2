@@ -22,3 +22,8 @@ class Student:
     def student_is_adult(age: int) -> bool:
         """A static method to determine student adulthood age."""
         return age > 18
+
+def student(name: str, age: int):
+    """Create a new student object."""
+    return Student(name, age)
+
