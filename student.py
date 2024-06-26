@@ -13,3 +13,7 @@ class Student:
 
     def acquaintance(self, student: object) -> str:
         return f"{self.name} acquianted with {student.name}"
+
+def student(name: str, age: int):
+    """Create a new student object."""
+    return Student(name, age)
